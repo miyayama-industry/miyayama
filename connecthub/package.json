@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "name": "connecthub",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "yarn workspaces run start"
+  }
+}
